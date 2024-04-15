@@ -74,6 +74,8 @@ body {
     background: url('fullscreen-button.png') no-repeat center;
     background-size: contain;
 }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+.unity-mobile #unity-footer { display: none }
 
 .spinner,
 .spinner:after {
@@ -100,6 +102,7 @@ body {
   100% {
     transform: rotate(360deg);
   }
+  
 }
 
 
